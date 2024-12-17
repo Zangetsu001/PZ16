@@ -20,6 +20,8 @@ namespace ConsoleApp1
             Output(list);
             list.RemoveAt(3);
             Output(list);
+            list.Reverse();
+            Output(list);
             Console.ReadKey();
         }
         static void Output(List<string>list)
